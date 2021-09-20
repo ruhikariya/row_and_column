@@ -8,9 +8,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.yellow,
+        backgroundColor: Colors.green,
         title: Text(
-          'Widget & Styling',
+          'Demo Page',
           style: TextStyle(color: Colors.black),
         ),
       ),
@@ -18,7 +18,7 @@ class HomePage extends StatelessWidget {
         child: SingleChildScrollView(
           child: Column(
             children: [
-              SizedBox(height: 18.0),
+              SizedBox(height: 15.0),
 
               Container(
                 child: Row(
@@ -27,14 +27,14 @@ class HomePage extends StatelessWidget {
                     Container(
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(15.0),
-                        color: Color(0xff820c0c),
+                        color: Colors.red,
                         border: Border.all(
                           color: Colors.black,
-                          width: 2.0,
+                          width: 1.0,
                         ),
                       ),
-                      height: 130.0,
-                      width: 170.0,
+                      height: 100.0,
+                      width: 180.0,
                     ),
                     Container(
                       decoration: BoxDecoration(
@@ -46,7 +46,7 @@ class HomePage extends StatelessWidget {
                         ),
                       ),
                       height: 100.0,
-                      width: 150.0,
+                      width: 180.0,
                     ),
                   ],
                 ),
@@ -158,8 +158,8 @@ class HomePage extends StatelessWidget {
               // Container for Black Line
               Container(
                 color: Colors.black87,
-                height: 2.0,
-                width: 320.0,
+                height: 3.0,
+                width: 315.0,
               ),
               SizedBox(height: 10.0),
               Container(
@@ -197,18 +197,18 @@ class HomePage extends StatelessWidget {
                           Text(
                             'TEXT',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 35.0),
+                                fontWeight: FontWeight.bold, fontSize: 30.0),
                           ),
-                          SizedBox(height: 20.0),
+                          SizedBox(height: 20),
                           Text(
                             'TEXT',
-                            style: TextStyle(fontSize: 15.0),
+                            style: TextStyle(fontSize: 18.0),
                           ),
                         ],
                       ),
                     ),
                     Container(
-                      height: 180.0,
+                      height: 150.0,
                       width: 100.0,
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.end,
@@ -217,12 +217,12 @@ class HomePage extends StatelessWidget {
                           Text(
                             'TEXT',
                             style: TextStyle(
-                                fontWeight: FontWeight.bold, fontSize: 35.0),
+                                fontWeight: FontWeight.bold, fontSize: 30.0),
                           ),
-                          SizedBox(height: 20.0),
+                          SizedBox(height: 25.0),
                           Text(
                             'TEXT',
-                            style: TextStyle(fontSize: 15.0),
+                            style: TextStyle(fontSize: 17.0),
                           ),
                         ],
                       ),
